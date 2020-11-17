@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.component.mail" >
+    <application
+        android:name="com.component.mail.MainApllication"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".MailMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mail.main" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
